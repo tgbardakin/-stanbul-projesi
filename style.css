@@ -3,14 +3,15 @@
     padding: 0;
 }
 .container{
-    border: 5px solid blue;
     width: 100%;
     height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(imagess/istanbul\ foto.jpg);
-    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-sizing: border-box;
     position: relative;
     padding: 0 30px;
+    
 }
 .navbar{
     display: flex;
@@ -104,8 +105,11 @@ banner-right{
     margin-top: 20px;
     margin-right: 15px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(imagess/back-view-beautiful-woman-standing-260nw-1140941024.webp);
-     background-position:center ;
-     text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-position: center;
+    text-align: center top;
     
 }
 .card h5{
